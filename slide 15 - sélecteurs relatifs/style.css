@@ -1,12 +1,11 @@
-body{
+body, div{
     color:black;
     background-color: lightgray;
 }
 
-p{
-    color: red;
+/*  Texte */
 
-}
+
 
 #conteneur p{
     color: red;
@@ -16,18 +15,24 @@ p{
     font-weight: bold;
 }
 
-#conteneur h2+p {
+#conteneur+p {
 
-    content: green;
+    font-weight:  green;
 }
 
-h2~p {
+h2+p {
 
-    content: uppercase ;
+    text-transform: uppercase ;
 }
 
-code{
-    content: pink;
-    
+code~~p{
+  color : pink;    
 }
 
+body>div{
+    background-color: yellow;
+}
+
+h1+div{
+border: 5px solid green
+}

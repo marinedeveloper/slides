@@ -3,7 +3,7 @@ a[target]{
     font-weight: bold;
 }
 
-a[target=top]{
+a[target="_top"]{
     font-size: 3rem;
 }
    
