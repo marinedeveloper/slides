@@ -1,4 +1,4 @@
-.page-container a{
+a{
     color: pink;
 }
 
@@ -11,15 +11,15 @@ a:visited{
 
 }
 
-p:hover{
+/* p:hover{
     background-color: red;
-}
+} */
 
 p::first-letter{
     font-size: 1.8rem;
 }
 
-p::selection{
+*::selection{
     text-decoration: underline;
     color : yellow;
 }
