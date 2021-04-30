@@ -1,0 +1,33 @@
+body{
+    color:black;
+    background-color: lightgray;
+}
+
+p{
+    color: red;
+
+}
+
+#conteneur p{
+    color: red;
+}
+
+#conteneur>p {
+    font-weight: bold;
+}
+
+#conteneur h2+p {
+
+    content: green;
+}
+
+h2~p {
+
+    content: uppercase ;
+}
+
+code{
+    content: pink;
+    
+}
+

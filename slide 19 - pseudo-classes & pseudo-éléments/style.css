@@ -1,0 +1,26 @@
+.page-container a{
+    color: pink;
+}
+
+a:hover{
+    font-size: 1.5rem;
+    color: yellow;
+}
+a:visited{
+    color: pink;
+
+}
+
+p:hover{
+    background-color: red;
+}
+
+p::first-letter{
+    font-size: 1.8rem;
+}
+
+p::selection{
+    text-decoration: underline;
+    color : yellow;
+}
+

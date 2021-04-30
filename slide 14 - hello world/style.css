@@ -1,0 +1,20 @@
+h1,h2{
+    color: #32CBDD;
+}
+
+#liste1 {
+    color: #028DB6;
+}
+
+li {
+    text-decoration: underline;
+}
+
+.but,.Dennis,.brian {
+    font-weight: bold;
+}
+.hello{
+    font-style: italic;
+}
+
+
